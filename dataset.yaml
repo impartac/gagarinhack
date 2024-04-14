@@ -1,0 +1,12 @@
+# Train/val/test sets as 
+## 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+
+#path: ../datasets/coco128  # dataset root dir
+train: C:\Users\32233\PycharmProjects\temp\datasets\train\  # train images (relative to 'path') 128 images
+val: C:\Users\32233\PycharmProjects\temp\datasets\val\ # val images (relative to 'path') 128 images
+# test:  # test images (optional)
+
+# Classes
+nc: 7
+names: [ 'driver_license-1', 'driver_license-2', 'personal_passport-1', 'personal_passport-2', 'vehicle_certificate-1' ,'vehicle_certificate-2' ,'vehicle_passport' ]
